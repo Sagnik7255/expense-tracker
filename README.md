@@ -17,16 +17,6 @@ by fixing bugs, adding features, or enhancing developer experience.
 - Backend: Node.js + Express
 - Storage: In-memory (No database)
 
-**Current features:**
-- Input transaction name and amount
-- Input mode of transaction, i.e. incoming/outgoing
-- Show all transactions made
-
-> ⚠️ Note: This project is intentionally incomplete and may contain bugs or missing features.
-Contributors are encouraged to improve and extend it.
-
----
-
 ## Getting Started
 
 ### 1. Clone the repository
@@ -59,34 +49,13 @@ These are some proposed issues. Feel free to choose one or your own feature idea
 - [ ] Refactor code structure
 - [ ] Add features
 
----
+## Backend Enhancements We Made
+- Full CRUD for transactions
+- Centralized validation & constants
+- File-based persistence (JSON)
+- Analytics endpoint
+- Proper error handling
 
-## How to Contribute
-1. Fork this repository
-2. Create a new branch
-```bash
-git checkout -b feature/new-feature-name
-```
-3. Make your changes
-4. Commit your changes
-```bash
-git commit -m "Add: your feature description"
-```
-5. Push to your fork
-```bash
-git push origin feature/your-feature-name
-```
-6. Open a Pull Request
-
----
-
-## Contribution Guidelines
-- Keep code clean and readable
-- Follow existing code style
-- Write clear commit messages
-- Be respectful and collaborative
-
----
 
 ## Acknowledgements
 
